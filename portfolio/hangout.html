@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Project: Tasklion</title>
+        <title>Project: Hangout?</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -32,7 +32,7 @@
                     <li class="nav-item sub-nav-item"><a class="nav-link" href="hangout-deepdive.html"> Deep Dive: Hangout?</a></li>
                     <li class="nav-item sub-nav-item"><a class="nav-link" href="tasklion.html">Project: Task Lion</a></li>
                     <!-- <li class="nav-item sub-nav-item"><a class="nav-link" href="expense-express.html">Project: Expense Express</a></li> -->
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#technologies-used">Technologies Used</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#technologies-used">Tech Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#awards">Awards and Leadership</a></li>
@@ -45,51 +45,48 @@
             <!-- Portfolio-->
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Project: <img class="" src="assets/img/tasklion-logo.png" style="width: 30%"/></h2>
+                    <h2 class="mb-5">Project: <img class="" src="assets/img/hangout-logo.jpg" style="width: 50%"/></h2>
                       <div class="row">
                         <div class="col-7"><h4 class="mb-5"> </h4></div>
                         <div class="col-2">
-                            <a href="https://tinyurl.com/tasklion">View App</a>
+                            <a href="https://hangout.casa">View App</a>
                         </div>
-                        <div class="col-3"><a href="">View Video Presentation</a> </div>
+                        <div class="col-3"><a href="https://youtu.be/1aeUiL_YPEI">View Video Presentation</a> </div>
                     </div>
                     <div class="row">
                       <div class="col">
                         <h3>Project Description</h3>
-                        <p>Tasklion seeks to help everyone who requires tasks to be completed to find suitable taskers to help them complete the task</p>
+                        <p>Hangout? seeks to connect new people with common interests and save money while doing the group activities together</p>
                       </div>
                     </div>
                     <h3> Technologies Used</h3>
+                    We decided to separate the frontend of the app and the backend separately.
                   
 <p>
-    <strong>Frontend</strong>: React.js, Javascript
+    <strong>Frontend</strong>: React.js, Javascript, React Router
 </p>
 <p>
-    <strong>Backend</strong>: Node.js, Express, Sequelize, PostgresSQL
+    <strong>Backend</strong>: Node.js, Express, Sequelize, Postgres (For storing the user information, Firebase Real-time database (For messaging)
 </p>
 <p>
     <strong>Deployment</strong>: Heroku
     <h3> Prototype Features</h3>
     <ul>
-        <li>The user will be able to input, edit his or her input</li>
-        <li>The user will be able to select a tasker based on pricing and tasker's information after keying in required details</li>
-        <li>The user will be able to see the progress bar</li>
-        <li>The user will be able to see a confirmation page</li>
+        <li>The creator of an activity (user) can create, edit, delete an activity</li>
+        <li>The participant of an actvitiy (user) can join and leave an activity</li>
+        <li>Users automatically joins the group chat when they join the activity</li>
+        <li>Users can chat with one another with a real-time chat function</li>
     </ul>
     <h3>Key Learning Points</h3>
     <ol>
-    <li>
-    Designed and execute the end-to-end user journey of a user finding a tasker
-    </li>
-    <li>Utilized React Hooks to dynamically manage the components’ state based on user actions 
-    </li>
-    <li>
-    Structured the app using the MVC framework for the backend to separate the business logic, UI logic and input logic
-    </li>
-    <li>
-        Used Sequelize ORM to write SQL for the create new task functionality
-    </li>
-
+        <li>Leveraged on advanced react frameworks such as useContext and useReducer to manage and share states across multiple components</li>
+        <li>Learnt to work with 2 repository, one for the front end and the other for the backend application </li>
+        <li>Implemeneted a real-time messaging system using Firebase Real-Time Database (NoSql Database)</li>
+        <li>Implemented deeplinking with react-router</li>
+        <li>
+            Setting cookies across to the frontend from the backend (crossorigin)
+        </li>
+        
     </ol>
                 </div>
             </section>
